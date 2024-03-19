@@ -1,9 +1,7 @@
 import { ProjectApp } from "components/Pages/Management/Project-components/Project";
 import BookCreateForm from "components/Pages/Management/Project-components/Book/create-book/book-create-form";
 import { ProjectDetailApp } from "components/Pages/Management/Project-components/Project/project-detail";
-import BookTimeSchedule from "components/Pages/Management/Project-components/Book/create-book/book-scheduler/book-timeline";
-import { Scheduler } from "@bitnoi.se/react-scheduler";
-import BookScheduleTimeLine from "components/Pages/Management/Project-components/Book/create-book/book-scheduler/time-line";
+import BookScheduleTimeLine from "components/Pages/Management/Project-components/Book/book-scheduler/time-line";
 export const ManagementRoutes = [
     {
       path: "/",
